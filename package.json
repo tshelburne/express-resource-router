@@ -1,0 +1,29 @@
+{
+  "name": "express-resource-router",
+  "version": "0.1.0",
+  "description": "Simple and semantic restful resource routing for Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "rails",
+    "resource",
+    "router",
+    "rest",
+    "restful"
+  ],
+  "author": "Tim Shelburne",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshelburne/express-resource-router"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": ">=3.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/tshelburne/express-resource-router/issues"
+  }
+}
