@@ -28,7 +28,7 @@ function buildResource(resolver) {
 		function setter(err, resource, resourceName) {
 			if (err) { return next(err); }
 			// autohandle 404 responses
-			if (resource === null) { return res.send(404); }
+			if (resource === null) { return res.status(404).end(); }
 			
 			resourceName = resourceName || 'resource';
 			req[resourceName] = resource;

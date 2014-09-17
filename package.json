@@ -1,6 +1,6 @@
 {
   "name": "express-resource-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple and semantic restful resource routing for Express",
   "main": "index.js",
   "scripts": {
